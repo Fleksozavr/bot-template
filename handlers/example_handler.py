@@ -15,10 +15,7 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-
 router = Router()
-
-bot = Bot(token=os.getenv('BOT_TOKEN'), default=DefaultBotProperties(parse_mode='HTML'))
 
 
 #Пример с ReplyKeyboardMarkup клавиатурой
